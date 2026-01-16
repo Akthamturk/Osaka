@@ -1,0 +1,13 @@
+:root{
+    --primaryColor:#fe206e;
+    --mainFont:"Open Sans", sans-serif;
+}
+.text__primary{
+    color: var(--primaryColor);
+}
+body{
+    font-family: var(--mainFont);
+}
+.about{
+    background-image: url(./imgs/light_dot.jpg);
+}
