@@ -8,6 +8,15 @@
 body{
     font-family: var(--mainFont);
 }
-.about{
+.about,.Portfolio{
     background-image: url(./imgs/light_dot.jpg);
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: var(--primaryColor)
+}
+.nav-link {
+    color: black;
+}
+.Portfolio .nav-tabs .nav-link,.Portfolio .nav-tabs {
+border: none;
 }
